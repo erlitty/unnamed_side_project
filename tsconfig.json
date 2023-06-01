@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es5",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Node",
+        "jsx": "react", // TODO: what does this do?
+        "sourceMap": true, // TODO: what does this do?
+    },
+    "exclude": ["node_modules"]
+}

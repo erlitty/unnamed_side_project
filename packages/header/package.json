@@ -1,0 +1,14 @@
+{
+    "name": "@self/header",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+    },
+    "scripts": {
+      "build": "tsc --build --clean"
+    },
+    "devDependencies": {
+      "lerna": "^6.6.2"
+    }
+  }
+  
