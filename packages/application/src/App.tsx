@@ -1,8 +1,9 @@
 import React from 'react';
+import { Header } from '@self/react-components';
 
 function App() {
   return (
-    <span>This text is from App.tsx</span>
+    <Header />
   );
 }
 
