@@ -8,5 +8,7 @@ const getClassNames = classNamesFunction<IHeaderStyleProps, IHeaderStyles>();
 export function HeaderBase (props: IHeaderProps): ReactElement {
     const classNames = getClassNames(props.styles);
     
-    return (<div>Example</div>);
+    return (
+        <div className={classNames.root}>Example Text</div>
+    );
 }
