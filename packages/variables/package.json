@@ -1,9 +1,8 @@
 {
-    "name": "@self/react-components",
+    "name": "@self/variables",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-      "@self/variables": "*"
     },
     "scripts": {
       "build": "tsc --build --clean"

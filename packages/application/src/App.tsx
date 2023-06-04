@@ -1,9 +1,9 @@
 import React from 'react';
-import { Header } from '@self/react-components';
+import { Navigation } from '@self/react-components';
 
 function App() {
   return (
-    <Header />
+    <Navigation />
   );
 }
 
