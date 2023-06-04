@@ -1,10 +1,9 @@
 {
-    "name": "@self/react-components",
+    "name": "@self/pages",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-      "@self/variables": "*",
-      "@self/pages": "*"
+      "@self/variables": "*"
     },
     "scripts": {
       "build": "tsc --build --clean"

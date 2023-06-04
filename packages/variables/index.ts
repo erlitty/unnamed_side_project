@@ -1,1 +1,1 @@
-export * from './headerVariables';
+export * from './navigationVariables';
