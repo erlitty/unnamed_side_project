@@ -3,7 +3,8 @@ import { ICharactersPageStyleProps, ICharactersPageStyles } from "./characters.t
 export function CharactersPageStyles(props: ICharactersPageStyleProps): ICharactersPageStyles {
     return {
         root: {
-            fontSize: '30px',
+            display: 'flex',
+            alignItems: 'flex-start',
         }
     }
 }
