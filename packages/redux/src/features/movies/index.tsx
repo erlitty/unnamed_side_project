@@ -1,0 +1,1 @@
+export { moviesSlice, add, remove } from './moviesSlice';
