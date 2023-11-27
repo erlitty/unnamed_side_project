@@ -13,7 +13,7 @@ export function AddButtonBase (props: IAddButtonProps): ReactElement {
 
     return (
         <div className={classNames.root}>
-            <IconButton iconProps={{ iconName: 'Add' }} title="Add" ariaLabel="Add" />
+            <IconButton iconProps={{ iconName: 'Add' }} title="Add" ariaLabel="Add" onClick={props.onClick}/>
         </div>
     );
 }
