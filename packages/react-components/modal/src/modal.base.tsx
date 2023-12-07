@@ -14,7 +14,7 @@ export function ModalBase (props: IModalProps): ReactElement {
             name: name,
             description: description,
         }
-        // TODO: Add to the redux store
+        // TODO: Add to redux store
     }
 
     return (

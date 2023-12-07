@@ -3,8 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-      "@self/variables": "*",
-      "@self/react-components": "*"
+      "@self/variables": "*"
     },
     "scripts": {
       "build": "tsc --build --clean"

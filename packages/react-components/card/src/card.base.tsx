@@ -1,6 +1,5 @@
-import { Image, Pivot, PivotItem, classNamesFunction } from "@fluentui/react";
+import { Image, classNamesFunction } from "@fluentui/react";
 import { ReactElement, useState } from "react";
-import { tabs } from "@self/variables";
 import * as React from "react";
 import { ICardStyleProps, ICardStyles, ICardProps } from "./card.types";
 

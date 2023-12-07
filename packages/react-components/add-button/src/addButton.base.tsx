@@ -1,6 +1,5 @@
 import { classNamesFunction, initializeIcons } from "@fluentui/react";
 import { ReactElement, useState } from "react";
-import { tabs } from "@self/variables";
 import * as React from "react";
 import { IAddButtonStyleProps, IAddButtonStyles, IAddButtonProps } from "./addButton.types";
 import { IconButton } from '@fluentui/react/lib/Button';
