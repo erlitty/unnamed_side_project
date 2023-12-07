@@ -1,5 +1,4 @@
 import { IStyle, IStyleFunctionOrObject } from "@fluentui/react";
-import { tabs } from "@self/variables";
 
 export interface INavigationProps {
     classNames?: string;

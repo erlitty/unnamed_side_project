@@ -14,7 +14,7 @@ export function ModalBase (props: IModalProps): ReactElement {
             name: name,
             description: description,
         }
-        // TODO: Add to the store using redux
+        // TODO: Add to the redux store
     }
 
     return (
@@ -25,9 +25,9 @@ export function ModalBase (props: IModalProps): ReactElement {
                 <div>Add new item</div>
                 <form onSubmit={() => handleSubmit}>
                     <label>Name:</label>
-                    <input type="text" id="name" value="name"></input><br></br>
+                    <input type="text" id="name"></input><br></br>
                     <label>Description:</label>
-                    <input type="text" id="description" value="description"></input><br></br>
+                    <input type="text" id="description"></input><br></br>
                     <input type="submit" value="Submit"/>
                 </form>
             </Modal>

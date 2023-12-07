@@ -17,7 +17,6 @@ export function NavigationBase (props: INavigationProps): ReactElement {
     const { view } = useRenderView(currentView as TabList);
 
     function onTabClick(tab: TabList) {
-        console.log(tab);
         setCurrentView(tab);
     }
 
